@@ -1,5 +1,5 @@
 {% set name = "locache" %}
-{% set version = "4.0.1" %}
+{% set version = "4.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/locache-{{ version }}.tar.gz
-  sha256: f1ef6b3e22dafe6dda95d82b45a750386735f01b2ec4df1859ffef52ac866c69
+  sha256: c372ddfe0983094330e7ac4c186b428a0d1cd22e1c539109910ddae5bb588971
 
 build:
   noarch: python
